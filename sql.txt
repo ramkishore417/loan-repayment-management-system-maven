@@ -1,0 +1,17 @@
+create database ctsuniversity;
+    use ctsuniveristy;
+
+
+    create table LoanInstallment
+    (
+    pytId varchar(20) primary key,
+    customerId varchar(20),
+    loanId varchar(20),
+    customerName varchar(20),
+    loanType varchar(20),
+    installmentAmtInRs float,
+    dueDate date,
+    actualPytDate date,
+    revisedInstallmentInRs float,
+    loanAmount float
+    );
