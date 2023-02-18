@@ -1,5 +1,5 @@
 create database ctsuniversity;
-    use ctsuniveristy;
+    use ctsuniversity;
 
 
     create table LoanInstallment
