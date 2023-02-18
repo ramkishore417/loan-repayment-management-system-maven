@@ -49,6 +49,7 @@ The Customer’s discounted Installment has to be calculated and then the modifi
     h. Catch all database related exception and throw Application specific exception only from DAO or from DBConnectionManager class. There has to be a private constructor in DBConnectionManager class, to load the database property file and to establish a database connection using JDBC 
     i. Rollback the Insert if any SQL exception has occurred. Throw application specific exception, LoanRepaymentException. 
     j. Revise the InstallmentAmt based on the constraints in the table given below
+![image](https://user-images.githubusercontent.com/48268023/219871594-d82b6f07-27ba-457d-bb80-ed148f1be84a.png)
 
 
 #### Process Flow 
